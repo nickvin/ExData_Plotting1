@@ -1,4 +1,4 @@
-hpc <- read.csv("C:/Users/Nicolas Vincent/Google Drive/R/Coursera/Exploratory Data Analysis/Course Project 1/household_power_consumption.txt", sep=";", na.strings="?")
+hpc <- read.csv("household_power_consumption.txt", sep=";", na.strings="?")
 dates <- c("1/2/2007","2/2/2007")
 hpc <- hpc[hpc$Date %in% dates,]
 
